@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<hr>
+<br>
+<p align=center>Check the boxes to view required columns</p>
+<form name="tcol" onsubmit="return false">
+
+<input type=checkbox name="col1" onclick="toggleVis(this.name)" checked> Time Stamp
+<input type=checkbox name="col2" onclick="toggleVis(this.name)" checked> Subsystem ID
+<input type=checkbox name="col3" onclick="toggleVis(this.name)" checked> MDN
+<input type=checkbox name="col4" onclick="toggleVis(this.name)" checked> IPType
+<input type=checkbox name="col5" onclick="toggleVis(this.name)" checked> Transport Type
+<input type=checkbox name="col6" onclick="toggleVis(this.name)" checked> CLient IP address
+<input type=checkbox name="col7" onclick="toggleVis(this.name)" checked> CLient Port
+<input type=checkbox name="col8" onclick="toggleVis(this.name)" checked> ONLINE Status
+<input type=checkbox name="col9" onclick="toggleVis(this.name)" checked> ONLINE Status Reason Code
+<input type=checkbox name="col10" onclick="toggleVis(this.name)" checked> PATH
+<input type=checkbox name="col11" onclick="toggleVis(this.name)" checked> REGRECVTIME
+<br>
+<input type=checkbox name="col12" onclick="toggleVis(this.name)" checked> KN-POC
+<input type=checkbox name="col13" onclick="toggleVis(this.name)" checked> PaccessInfo
+<input type=checkbox name="col14" onclick="toggleVis(this.name)" checked> F5PTTServerID
+<input type=checkbox name="col15" onclick="toggleVis(this.name)" checked> GEO Notification Route
+<input type=checkbox name="col16" onclick="toggleVis(this.name)" checked> APN
+
+</form>
+</div>
+<hr>
+<br>
+<TABLE  BORDER=5>
+<TH name=tcol1 id=tcol1>Time Stamp</TH><TH name=tcol2 id=tcol2><P ALIGN=Center>Subsystem ID</TH><TH name=tcol3 id=tcol3><P ALIGN=Center>MDN</TH><TH name=tcol4 id=tcol4><P ALIGN=Center>IP Type</TH><TH name=tcol5 id=tcol5><P ALIGN=Center>Transport Type</TH><TH name=tcol6 id=tcol6><P ALIGN=Center>Client IP Address</TH><TH name=tcol7 id=tcol7><P ALIGN=Center>Client Port</TH><TH name=tcol8 id=tcol8><P ALIGN=Center>ONLINE Status</TH><TH name=tcol9 id=tcol9><P ALIGN=Center>ONLINE Status Reason Code</TH><TH name=tcol10 id=tcol10><P ALIGN=Center>PATH</TH><TH name=tcol11 id=tcol11><P ALIGN=Center>REGRECVTIME</TH><TH name=tcol12 id=tcol12><P ALIGN=Center>KN-POC</TH><TH name=tcol13 id=tcol13><P ALIGN=Center>PaccessInfo</TH><TH name=tcol14 id=tcol14><P ALIGN=Center>F5PTTServerID</TH><TH name=tcol15 id=tcol15><P ALIGN=Center>GEO Notification Route</TH><TH name=tcol16 id=tcol16><P ALIGN=Center>APN</TH>
